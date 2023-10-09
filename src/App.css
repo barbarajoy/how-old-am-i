@@ -11,6 +11,7 @@
 h2 {
   color: white;
   margin-bottom: 14px;
+  font-size: 36px;
 }
 
 .form-box {
@@ -29,8 +30,15 @@ h2 {
   border: 0;
   border-radius: 4px;
   padding: 8px 16px;
-  color: black;
+  color: white;
   font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+
+  &:hover{
+    background-color: #05cae9;
+  }
 }
 
 input {
@@ -38,8 +46,21 @@ input {
   margin: 10px 0;
   background-color: black;
   color: white;
+  font-size: 18px;
   height: 36px;
   border: 0;
   border-radius: 4px;
   padding: 0 14px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+label {
+  font-size: 18px;
+}
+
+.calculated-age {
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 16px;
 }
